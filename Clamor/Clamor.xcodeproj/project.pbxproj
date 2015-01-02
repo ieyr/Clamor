@@ -14,6 +14,11 @@
 		1C4F6A351A56573D00529B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F6A301A56573D00529B8F /* Main.storyboard */; };
 		1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A311A56573D00529B8F /* ViewController.swift */; };
 		1CC021291A5684060035F849 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC021281A5684060035F849 /* Images.xcassets */; };
+		1CC0212B1A5695CA0035F849 /* composebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC0212A1A5695CA0035F849 /* composebutton.png */; };
+		1CC0212D1A56975E0035F849 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC0212C1A56975E0035F849 /* pencil.png */; };
+		1CC0212F1A56A2C60035F849 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0212E1A56A2C60035F849 /* PostViewController.swift */; };
+		1CC021651A56C2490035F849 /* downclam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC021631A56C2490035F849 /* downclam.png */; };
+		1CC021661A56C2490035F849 /* upclam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC021641A56C2490035F849 /* upclam.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		1C4F6A301A56573D00529B8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1C4F6A311A56573D00529B8F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CC021281A5684060035F849 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CC0212A1A5695CA0035F849 /* composebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composebutton.png; sourceTree = "<group>"; };
+		1CC0212C1A56975E0035F849 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		1CC0212E1A56A2C60035F849 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1CC021631A56C2490035F849 /* downclam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downclam.png; sourceTree = "<group>"; };
+		1CC021641A56C2490035F849 /* upclam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upclam.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +92,12 @@
 				1C4F6A0A1A5656B500529B8F /* AppDelegate.swift */,
 				1CC021281A5684060035F849 /* Images.xcassets */,
 				1C4F6A301A56573D00529B8F /* Main.storyboard */,
+				1CC0212E1A56A2C60035F849 /* PostViewController.swift */,
 				1C4F6A311A56573D00529B8F /* ViewController.swift */,
+				1CC0212A1A5695CA0035F849 /* composebutton.png */,
+				1CC0212C1A56975E0035F849 /* pencil.png */,
+				1CC021631A56C2490035F849 /* downclam.png */,
+				1CC021641A56C2490035F849 /* upclam.png */,
 				1C4F6A161A5656B500529B8F /* LaunchScreen.xib */,
 				1C4F6A0C1A5656B500529B8F /* Clamor.xcdatamodeld */,
 				1C4F6A081A5656B500529B8F /* Supporting Files */,
@@ -195,9 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC0212D1A56975E0035F849 /* pencil.png in Resources */,
 				1CC021291A5684060035F849 /* Images.xcassets in Resources */,
 				1C4F6A181A5656B500529B8F /* LaunchScreen.xib in Resources */,
+				1CC0212B1A5695CA0035F849 /* composebutton.png in Resources */,
+				1CC021651A56C2490035F849 /* downclam.png in Resources */,
 				1C4F6A351A56573D00529B8F /* Main.storyboard in Resources */,
+				1CC021661A56C2490035F849 /* upclam.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC0212F1A56A2C60035F849 /* PostViewController.swift in Sources */,
 				1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */,
 				1C4F6A0B1A5656B500529B8F /* AppDelegate.swift in Sources */,
 				1C4F6A0E1A5656B500529B8F /* Clamor.xcdatamodeld in Sources */,
