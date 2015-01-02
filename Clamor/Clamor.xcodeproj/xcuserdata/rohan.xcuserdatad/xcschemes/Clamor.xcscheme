@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C0BA0A91A5636BA00A88481"
-               BuildableName = "Clamour.app"
-               BlueprintName = "Clamour"
-               ReferencedContainer = "container:Clamour.xcodeproj">
+               BlueprintIdentifier = "1C4F6A041A5656B500529B8F"
+               BuildableName = "Clamor.app"
+               BlueprintName = "Clamor"
+               ReferencedContainer = "container:Clamor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C0BA0C11A5636BA00A88481"
-               BuildableName = "ClamourTests.xctest"
-               BlueprintName = "ClamourTests"
-               ReferencedContainer = "container:Clamour.xcodeproj">
+               BlueprintIdentifier = "1C4F6A1C1A5656B500529B8F"
+               BuildableName = "ClamorTests.xctest"
+               BlueprintName = "ClamorTests"
+               ReferencedContainer = "container:Clamor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C0BA0C11A5636BA00A88481"
-               BuildableName = "ClamourTests.xctest"
-               BlueprintName = "ClamourTests"
-               ReferencedContainer = "container:Clamour.xcodeproj">
+               BlueprintIdentifier = "1C4F6A1C1A5656B500529B8F"
+               BuildableName = "ClamorTests.xctest"
+               BlueprintName = "ClamorTests"
+               ReferencedContainer = "container:Clamor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C0BA0A91A5636BA00A88481"
-            BuildableName = "Clamour.app"
-            BlueprintName = "Clamour"
-            ReferencedContainer = "container:Clamour.xcodeproj">
+            BlueprintIdentifier = "1C4F6A041A5656B500529B8F"
+            BuildableName = "Clamor.app"
+            BlueprintName = "Clamor"
+            ReferencedContainer = "container:Clamor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C0BA0A91A5636BA00A88481"
-            BuildableName = "Clamour.app"
-            BlueprintName = "Clamour"
-            ReferencedContainer = "container:Clamour.xcodeproj">
+            BlueprintIdentifier = "1C4F6A041A5656B500529B8F"
+            BuildableName = "Clamor.app"
+            BlueprintName = "Clamor"
+            ReferencedContainer = "container:Clamor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C0BA0A91A5636BA00A88481"
-            BuildableName = "Clamour.app"
-            BlueprintName = "Clamour"
-            ReferencedContainer = "container:Clamour.xcodeproj">
+            BlueprintIdentifier = "1C4F6A041A5656B500529B8F"
+            BuildableName = "Clamor.app"
+            BlueprintName = "Clamor"
+            ReferencedContainer = "container:Clamor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

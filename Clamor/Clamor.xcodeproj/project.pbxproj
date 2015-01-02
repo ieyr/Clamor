@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4F6A0B1A5656B500529B8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A0A1A5656B500529B8F /* AppDelegate.swift */; };
+		1C4F6A0E1A5656B500529B8F /* Clamor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A0C1A5656B500529B8F /* Clamor.xcdatamodeld */; };
+		1C4F6A151A5656B500529B8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F6A141A5656B500529B8F /* Images.xcassets */; };
+		1C4F6A181A5656B500529B8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F6A161A5656B500529B8F /* LaunchScreen.xib */; };
+		1C4F6A241A5656B500529B8F /* ClamorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A231A5656B500529B8F /* ClamorTests.swift */; };
+		1C4F6A351A56573D00529B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F6A301A56573D00529B8F /* Main.storyboard */; };
+		1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A311A56573D00529B8F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C4F6A1E1A5656B500529B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C4F69FD1A5656B500529B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4F6A041A5656B500529B8F;
+			remoteInfo = Clamor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C4F6A051A5656B500529B8F /* Clamor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clamor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4F6A091A5656B500529B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4F6A0A1A5656B500529B8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C4F6A0D1A5656B500529B8F /* Clamor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clamor.xcdatamodel; sourceTree = "<group>"; };
+		1C4F6A141A5656B500529B8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C4F6A171A5656B500529B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1C4F6A1D1A5656B500529B8F /* ClamorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClamorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4F6A221A5656B500529B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4F6A231A5656B500529B8F /* ClamorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamorTests.swift; sourceTree = "<group>"; };
+		1C4F6A301A56573D00529B8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C4F6A311A56573D00529B8F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4F6A021A5656B500529B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4F6A1A1A5656B500529B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4F69FC1A5656B500529B8F = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A071A5656B500529B8F /* Clamor */,
+				1C4F6A201A5656B500529B8F /* ClamorTests */,
+				1C4F6A061A5656B500529B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C4F6A061A5656B500529B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A051A5656B500529B8F /* Clamor.app */,
+				1C4F6A1D1A5656B500529B8F /* ClamorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C4F6A071A5656B500529B8F /* Clamor */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A0A1A5656B500529B8F /* AppDelegate.swift */,
+				1C4F6A141A5656B500529B8F /* Images.xcassets */,
+				1C4F6A301A56573D00529B8F /* Main.storyboard */,
+				1C4F6A311A56573D00529B8F /* ViewController.swift */,
+				1C4F6A161A5656B500529B8F /* LaunchScreen.xib */,
+				1C4F6A0C1A5656B500529B8F /* Clamor.xcdatamodeld */,
+				1C4F6A081A5656B500529B8F /* Supporting Files */,
+			);
+			path = Clamor;
+			sourceTree = "<group>";
+		};
+		1C4F6A081A5656B500529B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A091A5656B500529B8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C4F6A201A5656B500529B8F /* ClamorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A231A5656B500529B8F /* ClamorTests.swift */,
+				1C4F6A211A5656B500529B8F /* Supporting Files */,
+			);
+			path = ClamorTests;
+			sourceTree = "<group>";
+		};
+		1C4F6A211A5656B500529B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F6A221A5656B500529B8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C4F6A041A5656B500529B8F /* Clamor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4F6A271A5656B500529B8F /* Build configuration list for PBXNativeTarget "Clamor" */;
+			buildPhases = (
+				1C4F6A011A5656B500529B8F /* Sources */,
+				1C4F6A021A5656B500529B8F /* Frameworks */,
+				1C4F6A031A5656B500529B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clamor;
+			productName = Clamor;
+			productReference = 1C4F6A051A5656B500529B8F /* Clamor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C4F6A1C1A5656B500529B8F /* ClamorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4F6A2A1A5656B500529B8F /* Build configuration list for PBXNativeTarget "ClamorTests" */;
+			buildPhases = (
+				1C4F6A191A5656B500529B8F /* Sources */,
+				1C4F6A1A1A5656B500529B8F /* Frameworks */,
+				1C4F6A1B1A5656B500529B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4F6A1F1A5656B500529B8F /* PBXTargetDependency */,
+			);
+			name = ClamorTests;
+			productName = ClamorTests;
+			productReference = 1C4F6A1D1A5656B500529B8F /* ClamorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C4F69FD1A5656B500529B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Haxos;
+				TargetAttributes = {
+					1C4F6A041A5656B500529B8F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1C4F6A1C1A5656B500529B8F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1C4F6A041A5656B500529B8F;
+					};
+				};
+			};
+			buildConfigurationList = 1C4F6A001A5656B500529B8F /* Build configuration list for PBXProject "Clamor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C4F69FC1A5656B500529B8F;
+			productRefGroup = 1C4F6A061A5656B500529B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C4F6A041A5656B500529B8F /* Clamor */,
+				1C4F6A1C1A5656B500529B8F /* ClamorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C4F6A031A5656B500529B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F6A181A5656B500529B8F /* LaunchScreen.xib in Resources */,
+				1C4F6A351A56573D00529B8F /* Main.storyboard in Resources */,
+				1C4F6A151A5656B500529B8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4F6A1B1A5656B500529B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4F6A011A5656B500529B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */,
+				1C4F6A0B1A5656B500529B8F /* AppDelegate.swift in Sources */,
+				1C4F6A0E1A5656B500529B8F /* Clamor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4F6A191A5656B500529B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F6A241A5656B500529B8F /* ClamorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C4F6A1F1A5656B500529B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4F6A041A5656B500529B8F /* Clamor */;
+			targetProxy = 1C4F6A1E1A5656B500529B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C4F6A161A5656B500529B8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4F6A171A5656B500529B8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C4F6A251A5656B500529B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C4F6A261A5656B500529B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C4F6A281A5656B500529B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clamor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C4F6A291A5656B500529B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clamor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C4F6A2B1A5656B500529B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClamorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clamor.app/Clamor";
+			};
+			name = Debug;
+		};
+		1C4F6A2C1A5656B500529B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClamorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clamor.app/Clamor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4F6A001A5656B500529B8F /* Build configuration list for PBXProject "Clamor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4F6A251A5656B500529B8F /* Debug */,
+				1C4F6A261A5656B500529B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4F6A271A5656B500529B8F /* Build configuration list for PBXNativeTarget "Clamor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4F6A281A5656B500529B8F /* Debug */,
+				1C4F6A291A5656B500529B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4F6A2A1A5656B500529B8F /* Build configuration list for PBXNativeTarget "ClamorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4F6A2B1A5656B500529B8F /* Debug */,
+				1C4F6A2C1A5656B500529B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C4F6A0C1A5656B500529B8F /* Clamor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C4F6A0D1A5656B500529B8F /* Clamor.xcdatamodel */,
+			);
+			currentVersion = 1C4F6A0D1A5656B500529B8F /* Clamor.xcdatamodel */;
+			path = Clamor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C4F69FD1A5656B500529B8F /* Project object */;
+}

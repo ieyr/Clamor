@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>77875809-FD5B-45B1-BA86-C91BA46FF77D</string>
+	<string>881B7501-5788-4A0E-A3E6-EE5E5F6BC208</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Clamour</string>
+	<string>Clamor</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F1566F8E1B66756458A130DC86CA5B5D314E1C71</key>
 		<string>https://github.com/ieyr/Clamor.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Clamour.xcodeproj</string>
+	<string>Clamor/Clamor.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F1566F8E1B66756458A130DC86CA5B5D314E1C71</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ieyr/Clamor.git</string>

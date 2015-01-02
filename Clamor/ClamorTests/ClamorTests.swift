@@ -1,6 +1,6 @@
 //
-//  ClamourTests.swift
-//  ClamourTests
+//  ClamorTests.swift
+//  ClamorTests
 //
 //  Created by Rohan on 1/1/15.
 //  Copyright (c) 2015 Haxos. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class ClamourTests: XCTestCase {
+class ClamorTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

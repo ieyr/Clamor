@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Clamour.xcscheme</key>
+		<key>Clamor.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1C0BA0A91A5636BA00A88481</key>
+		<key>1C4F6A041A5656B500529B8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C0BA0C11A5636BA00A88481</key>
+		<key>1C4F6A1C1A5656B500529B8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
