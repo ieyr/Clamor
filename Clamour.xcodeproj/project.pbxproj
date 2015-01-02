@@ -10,10 +10,14 @@
 		1C0BA0B01A5636BA00A88481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BA0AF1A5636BA00A88481 /* AppDelegate.swift */; };
 		1C0BA0B31A5636BA00A88481 /* Clamour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BA0B11A5636BA00A88481 /* Clamour.xcdatamodeld */; };
 		1C0BA0B51A5636BA00A88481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BA0B41A5636BA00A88481 /* ViewController.swift */; };
-		1C0BA0B81A5636BA00A88481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BA0B61A5636BA00A88481 /* Main.storyboard */; };
+		1C0BA0B81A5636BA00A88481 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BA0B61A5636BA00A88481 /* Main-iPad.storyboard */; };
 		1C0BA0BA1A5636BA00A88481 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BA0B91A5636BA00A88481 /* Images.xcassets */; };
 		1C0BA0BD1A5636BA00A88481 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BA0BB1A5636BA00A88481 /* LaunchScreen.xib */; };
 		1C0BA0C91A5636BA00A88481 /* ClamourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BA0C81A5636BA00A88481 /* ClamourTests.swift */; };
+		1CF595D71A56393A00372209 /* Main-iPhone6Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF595D61A56393A00372209 /* Main-iPhone6Plus.storyboard */; };
+		1CF595D91A56395800372209 /* Main-iPhone6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF595D81A56395800372209 /* Main-iPhone6.storyboard */; };
+		1CF595DB1A56397600372209 /* Main-iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF595DA1A56397600372209 /* Main-iPhone5.storyboard */; };
+		1CF595DD1A563A1B00372209 /* Main-iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF595DC1A563A1B00372209 /* Main-iPhone4.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +36,16 @@
 		1C0BA0AF1A5636BA00A88481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C0BA0B21A5636BA00A88481 /* Clamour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clamour.xcdatamodel; sourceTree = "<group>"; };
 		1C0BA0B41A5636BA00A88481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C0BA0B71A5636BA00A88481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C0BA0B71A5636BA00A88481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
 		1C0BA0B91A5636BA00A88481 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1C0BA0BC1A5636BA00A88481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C0BA0C21A5636BA00A88481 /* ClamourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClamourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0BA0C71A5636BA00A88481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0BA0C81A5636BA00A88481 /* ClamourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamourTests.swift; sourceTree = "<group>"; };
+		1CF595D61A56393A00372209 /* Main-iPhone6Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone6Plus.storyboard"; sourceTree = "<group>"; };
+		1CF595D81A56395800372209 /* Main-iPhone6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone6.storyboard"; sourceTree = "<group>"; };
+		1CF595DA1A56397600372209 /* Main-iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone5.storyboard"; sourceTree = "<group>"; };
+		1CF595DC1A563A1B00372209 /* Main-iPhone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone4.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,11 @@
 			children = (
 				1C0BA0AF1A5636BA00A88481 /* AppDelegate.swift */,
 				1C0BA0B41A5636BA00A88481 /* ViewController.swift */,
-				1C0BA0B61A5636BA00A88481 /* Main.storyboard */,
+				1C0BA0B61A5636BA00A88481 /* Main-iPad.storyboard */,
+				1CF595D61A56393A00372209 /* Main-iPhone6Plus.storyboard */,
+				1CF595D81A56395800372209 /* Main-iPhone6.storyboard */,
+				1CF595DA1A56397600372209 /* Main-iPhone5.storyboard */,
+				1CF595DC1A563A1B00372209 /* Main-iPhone4.storyboard */,
 				1C0BA0B91A5636BA00A88481 /* Images.xcassets */,
 				1C0BA0BB1A5636BA00A88481 /* LaunchScreen.xib */,
 				1C0BA0B11A5636BA00A88481 /* Clamour.xcdatamodeld */,
@@ -195,8 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0BA0B81A5636BA00A88481 /* Main.storyboard in Resources */,
+				1C0BA0B81A5636BA00A88481 /* Main-iPad.storyboard in Resources */,
+				1CF595D71A56393A00372209 /* Main-iPhone6Plus.storyboard in Resources */,
+				1CF595DD1A563A1B00372209 /* Main-iPhone4.storyboard in Resources */,
+				1CF595DB1A56397600372209 /* Main-iPhone5.storyboard in Resources */,
 				1C0BA0BD1A5636BA00A88481 /* LaunchScreen.xib in Resources */,
+				1CF595D91A56395800372209 /* Main-iPhone6.storyboard in Resources */,
 				1C0BA0BA1A5636BA00A88481 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,12 +256,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C0BA0B61A5636BA00A88481 /* Main.storyboard */ = {
+		1C0BA0B61A5636BA00A88481 /* Main-iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1C0BA0B71A5636BA00A88481 /* Base */,
 			);
-			name = Main.storyboard;
+			name = "Main-iPad.storyboard";
 			sourceTree = "<group>";
 		};
 		1C0BA0BB1A5636BA00A88481 /* LaunchScreen.xib */ = {
@@ -411,6 +427,7 @@
 				1C0BA0CE1A5636BA00A88481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0BA0CF1A5636BA00A88481 /* Build configuration list for PBXNativeTarget "ClamourTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				1C0BA0D11A5636BA00A88481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
