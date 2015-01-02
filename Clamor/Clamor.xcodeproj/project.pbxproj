@@ -14,6 +14,7 @@
 		1C4F6A351A56573D00529B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F6A301A56573D00529B8F /* Main.storyboard */; };
 		1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6A311A56573D00529B8F /* ViewController.swift */; };
 		1CC021291A5684060035F849 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC021281A5684060035F849 /* Images.xcassets */; };
+		7B3A30811A5693F900F8EDE1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A30801A5693F900F8EDE1 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1C4F6A301A56573D00529B8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1C4F6A311A56573D00529B8F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CC021281A5684060035F849 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B3A30801A5693F900F8EDE1 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		1C4F69FC1A5656B500529B8F = {
 			isa = PBXGroup;
 			children = (
+				7B3A30801A5693F900F8EDE1 /* PostViewController.swift */,
 				1C4F6A071A5656B500529B8F /* Clamor */,
 				1C4F6A201A5656B500529B8F /* ClamorTests */,
 				1C4F6A061A5656B500529B8F /* Products */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3A30811A5693F900F8EDE1 /* PostViewController.swift in Sources */,
 				1C4F6A361A56573D00529B8F /* ViewController.swift in Sources */,
 				1C4F6A0B1A5656B500529B8F /* AppDelegate.swift in Sources */,
 				1C4F6A0E1A5656B500529B8F /* Clamor.xcdatamodeld in Sources */,
