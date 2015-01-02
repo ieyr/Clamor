@@ -34,7 +34,7 @@ class PostViewController: UIViewController {
     @IBAction func downvote(sender: AnyObject) {
     }
     @IBAction func back(sender: AnyObject) {
-        navigationController?.popViewControllerAnimatedtrue);
+        performSegueWithIdentifier("backseg", sender: self);
     }
     /*
     // MARK: - Navigation

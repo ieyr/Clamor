@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UkK-tK-kai">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UkK-tK-kai">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -339,7 +339,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="dKM-U9-FAa" id="amb-dd-pbS"/>
-                        <segue destination="dkc-Jg-QsV" kind="show" identifier="postSeg" id="w0m-nY-o90"/>
+                        <segue destination="dkc-Jg-QsV" kind="show" identifier="seePost" id="w0m-nY-o90"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUb-CL-uqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -395,7 +395,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back:" destination="dkc-Jg-QsV" eventType="touchDown" id="r2E-Pg-NDr"/>
+                                    <action selector="back:" destination="dkc-Jg-QsV" eventType="touchDown" id="Ypy-mv-NRc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -406,7 +406,7 @@
                     <connections>
                         <outlet property="detail" destination="b7h-fA-9sn" id="EGm-cE-vhT"/>
                         <outlet property="subject" destination="Ox3-Oy-T5f" id="UxA-FG-Ull"/>
-                        <segue destination="UkK-tK-kai" kind="showDetail" id="ITw-9w-USM"/>
+                        <segue destination="UkK-tK-kai" kind="show" identifier="backseg" id="utx-F0-HIB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCa-u2-63S" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -67,7 +67,6 @@ class ViewController: UIViewController, UITextViewDelegate, UITableViewDelegate,
         var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
         
         cell.textLabel?.text = self.items[indexPath.row]
-        cell.addSubview(clamview);
         return cell
     }
     
