@@ -24,17 +24,15 @@ class ViewController: UIViewController,UITextViewDelegate {
     
     @IBOutlet weak var topTab: UIButton!
     @IBOutlet weak var newTab: UIButton!
-    var magentacg:CGColor =  UIColor(rgb: 0xdfaef2).CGColor
-    var magenta:UIColor = UIColor(rgb: 0xdfaef2)
+    var magentacg:CGColor =  UIColor(rgb: 0x9999ff).CGColor
+    var magenta:UIColor = UIColor(rgb: 0x9999ff)
     var white = UIColor.whiteColor()
     
     var top = false;
     override func viewDidLoad() {
         super.viewDidLoad()
         field.delegate = self;
-        newTab.layer.borderColor = magentacg;
-        
-        topTab.layer.borderColor = magentacg;
+
         // Do any additional setup after loading the view, typically from a nib.
 
     }
@@ -68,5 +66,8 @@ class ViewController: UIViewController,UITextViewDelegate {
             
         }
     }
+//    optional func tableView( tableView: UITableView,
+//        willDisplayCell cell: UITableViewCell,
+//        forRowAtIndexPath indexPath: NSIndexPath)
 }
 
