@@ -73,7 +73,7 @@
 		6B798F981A56839F0016D4A9 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		6B798F9E1A56A2FA0016D4A9 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		6B798FA41A56B1950016D4A9 /* ClamorIcon (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClamorIcon (3).png"; sourceTree = "<group>"; };
-		DFD32DDC1A5640EA0023016B /* Parsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD32DDC1A5640EA0023016B /* Clamor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clamor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD32DE01A5640EA0023016B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFD32DE11A5640EA0023016B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD32DE81A5640EA0023016B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		DFD32DDD1A5640EA0023016B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFD32DDC1A5640EA0023016B /* Parsing.app */,
+				DFD32DDC1A5640EA0023016B /* Clamor.app */,
 				DFD32DF11A5640EA0023016B /* ParsingTests.xctest */,
 			);
 			name = Products;
@@ -242,7 +242,7 @@
 			);
 			name = Parsing;
 			productName = Parsing;
-			productReference = DFD32DDC1A5640EA0023016B /* Parsing.app */;
+			productReference = DFD32DDC1A5640EA0023016B /* Clamor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DFD32DF01A5640EA0023016B /* ParsingTests */ = {
@@ -270,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = Haxors;
+				ORGANIZATIONNAME = klome;
 				TargetAttributes = {
 					DFD32DDB1A5640EA0023016B = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -458,6 +458,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.1",
@@ -466,7 +468,8 @@
 				INFOPLIST_FILE = Parsing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clamor;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Parsing-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -477,6 +480,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.1",
@@ -485,7 +490,8 @@
 				INFOPLIST_FILE = Parsing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clamor;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Parsing-Bridging-Header.h";
 			};
 			name = Release;
@@ -504,7 +510,7 @@
 				);
 				INFOPLIST_FILE = ParsingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParsingTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing.app/Parsing";
 			};
 			name = Debug;
@@ -519,7 +525,7 @@
 				);
 				INFOPLIST_FILE = ParsingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParsingTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing.app/Parsing";
 			};
 			name = Release;

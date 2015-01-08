@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFD32DDB1A5640EA0023016B"
-               BuildableName = "Parsing.app"
+               BuildableName = "Clamor.app"
                BlueprintName = "Parsing"
                ReferencedContainer = "container:Parsing.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFD32DF01A5640EA0023016B"
-               BuildableName = "ParsingTests.xctest"
+               BuildableName = "ClamorTests.xctest"
                BlueprintName = "ParsingTests"
                ReferencedContainer = "container:Parsing.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFD32DF01A5640EA0023016B"
-               BuildableName = "ParsingTests.xctest"
+               BuildableName = "ClamorTests.xctest"
                BlueprintName = "ParsingTests"
                ReferencedContainer = "container:Parsing.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFD32DDB1A5640EA0023016B"
-            BuildableName = "Parsing.app"
+            BuildableName = "Clamor.app"
             BlueprintName = "Parsing"
             ReferencedContainer = "container:Parsing.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFD32DDB1A5640EA0023016B"
-            BuildableName = "Parsing.app"
+            BuildableName = "Clamor.app"
             BlueprintName = "Parsing"
             ReferencedContainer = "container:Parsing.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFD32DDB1A5640EA0023016B"
-            BuildableName = "Parsing.app"
+            BuildableName = "Clamor.app"
             BlueprintName = "Parsing"
             ReferencedContainer = "container:Parsing.xcodeproj">
          </BuildableReference>
