@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1C3D9ACB1A56DA1F0047593F /* ClamorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D9ACA1A56DA1F0047593F /* ClamorViewController.swift */; };
+		1C5112031A634648000DDA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5112011A634648000DDA0C /* Main.storyboard */; };
+		1C5112041A634648000DDA0C /* Main5.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5112021A634648000DDA0C /* Main5.5.storyboard */; };
 		1CC021701A56D3C60035F849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0216F1A56D3C60035F849 /* ViewController.swift */; };
 		1CC021721A56D4550035F849 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC021711A56D4550035F849 /* PostViewController.swift */; };
 		1CE077921A58D50F004053AA /* composebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0778E1A58D50F004053AA /* composebutton.png */; };
 		1CE077931A58D50F004053AA /* downclam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0778F1A58D50F004053AA /* downclam.png */; };
 		1CE077941A58D50F004053AA /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE077901A58D50F004053AA /* pencil.png */; };
 		1CE077951A58D50F004053AA /* upclam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE077911A58D50F004053AA /* upclam.png */; };
-		1CE0779E1A58D828004053AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0779C1A58D828004053AA /* Main.storyboard */; };
-		1CE0779F1A58D828004053AA /* Main5.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0779D1A58D828004053AA /* Main5.5.storyboard */; };
 		6B798F921A56838D0016D4A9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B798F911A56838D0016D4A9 /* test.m */; };
 		6B798F991A56839F0016D4A9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B798F941A56839F0016D4A9 /* Bolts.framework */; };
 		6B798F9A1A56839F0016D4A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B798F951A56839F0016D4A9 /* Parse.framework */; };
@@ -56,14 +56,14 @@
 
 /* Begin PBXFileReference section */
 		1C3D9ACA1A56DA1F0047593F /* ClamorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClamorViewController.swift; sourceTree = "<group>"; };
+		1C5112011A634648000DDA0C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C5112021A634648000DDA0C /* Main5.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main5.5.storyboard; sourceTree = "<group>"; };
 		1CC0216F1A56D3C60035F849 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CC021711A56D4550035F849 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		1CE0778E1A58D50F004053AA /* composebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composebutton.png; sourceTree = "<group>"; };
 		1CE0778F1A58D50F004053AA /* downclam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downclam.png; sourceTree = "<group>"; };
 		1CE077901A58D50F004053AA /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		1CE077911A58D50F004053AA /* upclam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upclam.png; sourceTree = "<group>"; };
-		1CE0779C1A58D828004053AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../Downloads/Parsing-state/Parsing-state/Parsing/Main.storyboard"; sourceTree = "<group>"; };
-		1CE0779D1A58D828004053AA /* Main5.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main5.5.storyboard; path = "../../../../Downloads/Parsing-state/Parsing-state/Parsing/Main5.5.storyboard"; sourceTree = "<group>"; };
 		6B798F901A56838C0016D4A9 /* Parsing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parsing-Bridging-Header.h"; sourceTree = "<group>"; };
 		6B798F911A56838D0016D4A9 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		6B798F941A56839F0016D4A9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -186,8 +186,8 @@
 				DFD32DE11A5640EA0023016B /* AppDelegate.swift */,
 				1CE0778E1A58D50F004053AA /* composebutton.png */,
 				1CE0778F1A58D50F004053AA /* downclam.png */,
-				1CE0779C1A58D828004053AA /* Main.storyboard */,
-				1CE0779D1A58D828004053AA /* Main5.5.storyboard */,
+				1C5112011A634648000DDA0C /* Main.storyboard */,
+				1C5112021A634648000DDA0C /* Main5.5.storyboard */,
 				1CE077901A58D50F004053AA /* pencil.png */,
 				1CE077911A58D50F004053AA /* upclam.png */,
 				6B798F9E1A56A2FA0016D4A9 /* BackgroundView.swift */,
@@ -307,11 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CE077941A58D50F004053AA /* pencil.png in Resources */,
-				1CE0779E1A58D828004053AA /* Main.storyboard in Resources */,
 				1CE077921A58D50F004053AA /* composebutton.png in Resources */,
 				6B798FA51A56B1950016D4A9 /* ClamorIcon (3).png in Resources */,
-				1CE0779F1A58D828004053AA /* Main5.5.storyboard in Resources */,
+				1C5112031A634648000DDA0C /* Main.storyboard in Resources */,
 				DFD32DEC1A5640EA0023016B /* LaunchScreen.xib in Resources */,
+				1C5112041A634648000DDA0C /* Main5.5.storyboard in Resources */,
 				1CE077951A58D50F004053AA /* upclam.png in Resources */,
 				DFD32DE91A5640EA0023016B /* Images.xcassets in Resources */,
 				1CE077931A58D50F004053AA /* downclam.png in Resources */,
